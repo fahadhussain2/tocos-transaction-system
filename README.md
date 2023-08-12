@@ -6,6 +6,7 @@ Welcome to the documentation for Tocos Trading Platform! This document provides 
 
 - [Introduction](#introduction)
 - [Technology Stack](#technology-stack)
+- [Clarity of Design Choices](#clarity-of-design-choices)
 - [Features](#features)
   - [Transactions](#transactions)
   - [Adding Users](#adding-users)
@@ -41,23 +42,23 @@ Tocos Trading Platform is a web application designed to facilitate transactions 
 
 ### Clarity of Design Choices
 
-1. ### Backend Server:
+1. #### Backend Server:
 - Chose TypeScript for type safety and better code organization.
 - Used Express for its simplicity in creating API endpoints.
 - Utilized MongoDB as the database to store user information and balances.
 - Created separate route handlers for each API endpoint, keeping the code modular.
 - Included validation checks, error handling, and appropriate HTTP status codes in responses.
 
-2. ### Frontend:
+2. #### Frontend:
 - Mentioned React for building the user interface, but not detailed the design due to the complexity.
 - Encouraged separation of concerns, component-based architecture, and consuming APIs from the backend.
 
-3. ### Dockerization:
+3. #### Dockerization:
 - Provided Dockerfiles for both backend and frontend, ensuring ease of deployment.
 - Used Node.js LTS as the base image.
 - Mentioned the use of npm for package management.
 
-4. ### Testing:
+4. #### Testing:
 
 - Suggested using Jest for testing.
 - Demonstrated sample tests for user creation, user details, and transactions.
