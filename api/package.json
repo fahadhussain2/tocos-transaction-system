@@ -1,0 +1,36 @@
+{
+  "name": "node-express-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon index.ts",
+    "build": "tsc",
+    "test": "ts-jest --verbose",
+    "start:test": "NODE_ENV=test node index.js"
+  },
+  "keywords": [],
+  "author": "Fahad Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jest": "^29.6.2",
+    "mongoose": "^7.4.2",
+    "path": "^0.12.7",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.3",
+    "@types/supertest": "^2.0.12",
+    "nodemon": "^3.0.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
