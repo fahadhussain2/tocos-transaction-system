@@ -18,6 +18,7 @@ Welcome to the documentation for Tocos Trading Platform! This document provides 
 - [Usage](#usage)
 - [Testing](#testing)
 - [Possible Improvements](#possible-improvements)
+- [Demo](#demo)
 
 ### Introduction
 
@@ -140,5 +141,8 @@ Testing is an important aspect of ensuring the reliability of the application. T
 - Optimize database queries for improved performance.
 
 This concludes the documentation for Tocos Trading Platform.
+
+### Demo
+[tocos-demonstration.webm](https://github.com/fahadhussain2/tocos-transaction-system/assets/19908737/39564303-daef-42e9-8b45-c8605e3a103e)
 
 **Thank you for Reading!**
